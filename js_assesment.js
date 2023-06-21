@@ -36,10 +36,10 @@ const getTotalSupply = function () {
 };
 
 // Minting some NFTs
-mintNFT("NFT 1", "Red", "Art", "Rare");
-mintNFT("NFT 2", "Blue", "Music", "Common");
-mintNFT("NFT 3", "Green", "Sports", "Epic");
-mintNFT("NFT 4", "Purple", "Collectibles", "Legendary");
+mintNFT("NFT 1", "yellow", "cars", "Rare");
+mintNFT("NFT 2", "orange", "Music", "Common");
+mintNFT("NFT 3", "black", "Sports", "Epic");
+mintNFT("NFT 4", "Pink", "landscape", "Legendary");
 
 // Print all NFTs
 printNFTs();
