@@ -23,8 +23,8 @@ const printNFTs = function () {
     console.log(`ID: ${i + 1}`);
     console.log(`Name: ${NFTs[i].name}`);
     console.log(`Color: ${NFTs[i].color}`);
-    console.log(`Type: ${NFTs[i].genre}`);
-    console.log(`Rarity: ${NFTs[i].background}\n`);
+    console.log(`Genre: ${NFTs[i].genre}`);
+    console.log(`Background: ${NFTs[i].background}\n`);
   }
 
   console.log("Finished printing all NFTs.\n");
