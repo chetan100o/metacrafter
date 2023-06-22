@@ -2,12 +2,12 @@
 const NFTs = [];
 
 // Function to mint NFTs
-const mintNFT = function (_name, _color, _type, _rarity) {
+const mintNFT = function (_name, _color, _genre, _background) {
   const NFT = {
     name: _name,
     color: _color,
-    type: _type,
-    rarity: _rarity,
+    genre: _genre,
+    background: _background,
   };
 
   NFTs.push(NFT);
@@ -23,8 +23,8 @@ const printNFTs = function () {
     console.log(`ID: ${i + 1}`);
     console.log(`Name: ${NFTs[i].name}`);
     console.log(`Color: ${NFTs[i].color}`);
-    console.log(`Type: ${NFTs[i].type}`);
-    console.log(`Rarity: ${NFTs[i].rarity}\n`);
+    console.log(`Type: ${NFTs[i].genre}`);
+    console.log(`Rarity: ${NFTs[i].background}\n`);
   }
 
   console.log("Finished printing all NFTs.\n");
@@ -36,10 +36,10 @@ const getTotalSupply = function () {
 };
 
 // Minting some NFTs
-mintNFT("NFT 1", "yellow", "cars", "Rare");
-mintNFT("NFT 2", "orange", "Music", "Common");
-mintNFT("NFT 3", "black", "Sports", "Epic");
-mintNFT("NFT 4", "Pink", "landscape", "Legendary");
+mintNFT("A1", "yellow", "science", "city");
+mintNFT("A2", "orange", "fantasy", "beach");
+mintNFT("A3", "black", "steampunk", "jungle");
+mintNFT("A4", "Pink", "action", "nature");
 
 // Print all NFTs
 printNFTs();
